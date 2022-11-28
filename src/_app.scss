@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0 0 58px 0;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 10px 0;
+
+  .container {
+    max-width: 1170px;
+    padding: 75.55px 15px;
+    margin: 0 auto;
+    background-color: #ffffffa0;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  }}
+
+.home {
+  background-image: url(/assets/img/beach-1839922_1920.jpg);
+}
+
+.desc {
+  background-image: url("/assets/img/palm-trees-3619180_1920.jpg");
+}
+
+.price {
+  background-image: url("/assets/img/beach-2836300.jpg");
+}
+
+.about {
+  background-image: url("/assets/img/woman-1867908_1920.jpg");
+}
+
+.contact {
+  background-image: url("/assets/img/sunset-1651426_1920.jpg");
+
+  .contact-data {
+    display: flex;
+    margin: 0;
+
+    .contact-data-container {
+      flex-grow: 1;
+      margin: 10px;
+      background-color: rgba(231, 120, 62, 0.55);
+      border-radius: 8px;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+      padding: 0.25em 0.75em;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  font-size: 40px;
+}
+
+footer {
+  background-color: #000000;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+}
