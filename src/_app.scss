@@ -26,37 +26,37 @@ section {
   }}
 
 .home {
-  background-image: url(/assets/img/beach-1839922_1920.jpg);
+  background-image: none /*url(/assets/img/beach-1839922_1920.jpg)*/;
 }
 
 .desc {
-  background-image: url("/assets/img/palm-trees-3619180_1920.jpg");
+    background-image: none /*url("/assets/img/palm-trees-3619180_1920.jpg")*/;
 }
 
 .price {
-  background-image: url("/assets/img/beach-2836300.jpg");
+    background-image: none /*url("/assets/img/beach-2836300.jpg")*/;
 }
 
 .about {
-  background-image: url("/assets/img/woman-1867908_1920.jpg");
+    background-image: none /*url("/assets/img/woman-1867908_1920.jpg"*/;
 }
 
 .contact {
-  background-image: url("/assets/img/sunset-1651426_1920.jpg");
+    background-image: none /*url("/assets/img/sunset-1651426_1920.jpg"*/;
 
-  .contact-data {
-    display: flex;
-    margin: 0;
+    .contact-data {
+        display: flex;
+        margin: 0;
 
-    .contact-data-container {
-      flex-grow: 1;
-      margin: 10px;
-      background-color: rgba(231, 120, 62, 0.55);
-      border-radius: 8px;
-      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-      padding: 0.25em 0.75em;
+        .contact-data-container {
+            flex-grow: 1;
+            margin: 10px;
+            background-color: rgba(231, 120, 62, 0.55);
+            border-radius: 8px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+            padding: 0.25em 0.75em;
+        }
     }
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
