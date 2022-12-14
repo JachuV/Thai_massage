@@ -1,8 +1,8 @@
 import React from "react";
 // eslint-disable-next-line
 import ReactDOM from "react-dom/client"
-import "./_app.scss";
-import Navbar from "./Navbar.js"
+/*import "./index";*/
+import Navbar from "./Navbar/Navbar.js"
 import { Trans, withTranslation } from "react-i18next";
 
 class App extends React.Component {
@@ -15,14 +15,17 @@ class App extends React.Component {
                 en: { nativeName: 'En' },
                 nl: { nativeName: 'Nl' },
             },
-                }
+        }
     }
     
     render() {
         return(
             <div className={ 'App' }>
 
-                <Navbar i18n={ this.state.i18n } lngs={ this.state.lngs } />
+                <Navbar
+                    i18n={ this.state.i18n }
+                    lngs={ this.state.lngs }
+                />
 
 
                 <section className={ 'home' } id={ 'scroll-home' }>
