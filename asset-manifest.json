@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thai_massages/static/css/main.7e8214e1.chunk.css",
+    "main.js": "/thai_massages/static/js/main.64e3efa6.chunk.js",
+    "main.js.map": "/thai_massages/static/js/main.64e3efa6.chunk.js.map",
+    "runtime-main.js": "/thai_massages/static/js/runtime-main.62e306b9.js",
+    "runtime-main.js.map": "/thai_massages/static/js/runtime-main.62e306b9.js.map",
+    "static/js/2.77870bc2.chunk.js": "/thai_massages/static/js/2.77870bc2.chunk.js",
+    "static/js/2.77870bc2.chunk.js.map": "/thai_massages/static/js/2.77870bc2.chunk.js.map",
+    "index.html": "/thai_massages/index.html",
+    "static/css/main.7e8214e1.chunk.css.map": "/thai_massages/static/css/main.7e8214e1.chunk.css.map",
+    "static/js/2.77870bc2.chunk.js.LICENSE.txt": "/thai_massages/static/js/2.77870bc2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62e306b9.js",
+    "static/js/2.77870bc2.chunk.js",
+    "static/css/main.7e8214e1.chunk.css",
+    "static/js/main.64e3efa6.chunk.js"
+  ]
+}
