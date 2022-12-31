@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Thai_massage/static/css/main.71681698.chunk.css",
-    "main.js": "/Thai_massage/static/js/main.7b89ac66.chunk.js",
-    "main.js.map": "/Thai_massage/static/js/main.7b89ac66.chunk.js.map",
+    "main.css": "/Thai_massage/static/css/main.32f638af.chunk.css",
+    "main.js": "/Thai_massage/static/js/main.43e9b9cb.chunk.js",
+    "main.js.map": "/Thai_massage/static/js/main.43e9b9cb.chunk.js.map",
     "runtime-main.js": "/Thai_massage/static/js/runtime-main.bc884bb8.js",
     "runtime-main.js.map": "/Thai_massage/static/js/runtime-main.bc884bb8.js.map",
     "static/js/2.16f12950.chunk.js": "/Thai_massage/static/js/2.16f12950.chunk.js",
     "static/js/2.16f12950.chunk.js.map": "/Thai_massage/static/js/2.16f12950.chunk.js.map",
     "index.html": "/Thai_massage/index.html",
-    "static/css/main.71681698.chunk.css.map": "/Thai_massage/static/css/main.71681698.chunk.css.map",
+    "static/css/main.32f638af.chunk.css.map": "/Thai_massage/static/css/main.32f638af.chunk.css.map",
     "static/js/2.16f12950.chunk.js.LICENSE.txt": "/Thai_massage/static/js/2.16f12950.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/Thai_massage/static/media/Thaikowska-bench.880a1b90.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.bc884bb8.js",
     "static/js/2.16f12950.chunk.js",
-    "static/css/main.71681698.chunk.css",
-    "static/js/main.7b89ac66.chunk.js"
+    "static/css/main.32f638af.chunk.css",
+    "static/js/main.43e9b9cb.chunk.js"
   ]
 }
