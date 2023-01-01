@@ -5,43 +5,58 @@ class Navbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            lngs: {
+            /*lngs: {
                 pl: { nativeName: 'Pl' },
                 en: { nativeName: 'En' },
                 nl: { nativeName: 'Nl' },
-            },
-            i18n: this.props.i18n,
+            },*/
+            /*i18n: this.props.i18n,*/
+            hamburgerIsOpen: this.props.hamburgerIsOpen,
         };
 
     }
+
     render() {
+
         return (
-            < nav className = { "App-header" } >
-                <h2 id={ 'App-header-logo' } className={ 'logo' }>Magdalena Laskowska</h2>
+            < nav className=
+                { this.state.hamburgerIsOpen
+                    ? "App-header active"
+                    : "App-header unactive"
+                } >
+                { console.log('App-header isactive: ', this.state.hamburgerIsOpen) }
+
                 <ul className={ 'menu' }>
+                    <li><h2 id={ 'App-header-logo' } className={ 'logo' }>Thaikowska</h2></li>
                     <MenuButton
                         id={ 'menu-home' }
                         i18nKey={ 'menu.home' }
-                        name={'Strona g³ówna' }
+                        name={'Front' }
                         to={ 'scroll-home' }
                     />
                     <MenuButton
-                        id={ 'menu-desc' }
-                        i18nKey={ 'menu.desc' }
-                        name={ 'Masa¿ tajski' }
-                        to={'scroll-desc' }
+                        id={ 'menu-benefits' }
+                        i18nKey={ 'menu.benefits' }
+                        name={ 'Zyski' }
+                        to={ 'scroll-benefits' }
                     />
                     <MenuButton
-                        id={ 'menu-price' }
-                        i18nKey={ 'menu.price' }
-                        name={ 'Cennik' }
-                        to={ 'scroll-price' }
+                        id={ 'menu-indications' }
+                        i18nKey={ 'menu.indications' }
+                        name={ 'Wskazania' }
+                        to={'scroll-indications' }
                     />
                     <MenuButton
-                        id={ 'menu-about' }
-                        i18nKey={ 'menu.about' }
-                        name={ 'O mnie' }
-                        to={ 'scroll-about' }
+                        id={ 'menu-contraindications' }
+                        i18nKey={ 'menu.contraindications' }
+                        name={ 'Przeciwwskazania' }
+                        to={ 'scroll-contraindications' }
+                    />                
+                    <MenuButton
+                        id={ 'menu-preparations' }
+                        i18nKey={ 'menu.preparations' }
+                        name={ 'Przygotowanie' }
+                        to={ 'scroll-preparations' }
                     />
                     <MenuButton
                         id={ 'menu-contact' }
@@ -50,19 +65,6 @@ class Navbar extends React.Component {
                         to={ 'scroll-contact' }
                     />
                 </ul>
-                <div className={ 'languages' }>
-                    { Object.keys(this.state.lngs).map((lng) => (
-                        <a
-                            key={ lng }
-                            type={ 'submit' }
-                            href={ this.state.lngs[lng].nativeName }
-                            className={ this.state.i18n.resolvedLanguage === lng ? 'switch-lang active' : 'switch-lang' }
-                            onClick={ () => this.state.i18n.changeLanguage(lng) }
-                        >
-                            { this.state.lngs[lng].nativeName }
-                        </a>
-                    ))}
-                </div>
             </nav >
         )
     }

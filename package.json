@@ -2,11 +2,12 @@
   "name": "thai_massages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JachuV.github.io/thai_massages",
+  "homepage": "http://JachuV.github.io/Thai_massage",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "hamburger-react": "^2.5.0",
     "i18next": "^21.9.1",
     "i18next-browser-languagedetector": "^6.1.5",
     "jquery": "^3.6.1",

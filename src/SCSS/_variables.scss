@@ -1,0 +1,44 @@
+/************
+FONTS
+************/
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+//font-family: 'Dancing Script', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+//font-family: 'Dosis', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+//font-family: 'Mr Dafoe', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+//font-family: 'Caramel', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+//font-family: 'Karla', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+//font-family: 'Montserrat', sans-serif;
+$logo-font: 'Mr Dafoe', cursive;
+$menu-font: 'Caramel', cursive;
+$section-header-font: 'Dosis', sans-serif;
+$main-header-font: 'Mr Dafoe', cursive;
+$contact-font: 'Karla', sans-serif;
+$text-font: 'Montserrat', sans-serif;
+
+$font-size-sm: clamp(0.7rem, 0vw + 0.7rem, 0.7rem);
+$font-size-base: clamp(0.9rem, 0.1vw + 0.8rem, 1rem);
+$font-size-md: clamp(1.1rem, 0.4vw + 0.5rem, 1.5rem);
+$font-size-lg: clamp(1.4rem, 0.9vw + 1.2rem, 2.3rem);
+$font-size-xl: clamp(1.7rem, 1.6vw + 1.3rem, 3.4rem);
+$font-size-xxl: clamp(2.1rem, 2.8vw + 1.4rem, 5.1rem);
+$font-size-xxxl: clamp(2.7rem, 4.8vw + 1.5rem, 7.6rem);
+
+/************
+COLORS
+************/
+
+//BTN
+$btnBgColor: #eee;
+$btnTextColor: #000;
+$btnShadowColor: rgba(0, 0, 0, 0.18);
+$menuHoverColor: #606f10;
+$headerBgColor: #ffffff;
+$sectionBgColor: #fff;
+$container-bg-color: none;
+$big-header-color: #fff;
+$home-text-bg-color: #fceec0;

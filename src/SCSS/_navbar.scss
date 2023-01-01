@@ -1,0 +1,105 @@
+@import "variables";
+.hamburger-react {
+    overflow: hidden !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 199;
+    background-color: #ffffffc2;
+    border-radius: 50%;
+    display:none;
+}
+
+.App-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: $headerBgColor;
+    display: flex;
+
+    .logo {
+        font-family: $logo-font;
+        font-size: $font-size-xl;
+        margin: 12px 30px;
+        align-self: center;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+
+        li {
+            display: inline-block;
+            margin: 0 0 0 5vw;
+
+            a {
+                font-family: $menu-font;
+                text-transform: uppercase;
+                font-size: $font-size-md;
+                letter-spacing: 0.09em;
+                font-weight: 600;
+                color: #000;
+                display: block;
+
+                &.active {
+                    border-bottom: 1px solid #333;
+                }
+            }
+
+            a:hover {
+                border-bottom: 2px solid #333;
+            }
+
+            &:first-child {
+                margin: 0;
+            }
+        }
+    }
+
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px 0 auto;
+
+        button {
+            border: none;
+            background-color: $btnBgColor;
+            font-family: inherit;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: $btnTextColor;
+            border-radius: 8px;
+            box-shadow: 0 3px 5px $btnShadowColor;
+            padding: 0.25em 0.75em;
+            min-width: 10ch;
+            min-height: 44px;
+            text-align: center;
+            line-height: 1.1;
+
+            @media screen and (-ms-high-contrast: active) {
+                border: 2px solid currentColor;
+            }
+
+            &:hover {
+                background-color: scale-color($btnBgColor, $lightness: -20%);
+            }
+        }
+
+        .switch-lang {
+            font-weight: normal;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,6 +1,5 @@
 import React from "react";
-import { useTranslation, Trans } from "react-i18next";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 class MenuButton extends React.Component {
@@ -8,7 +7,6 @@ class MenuButton extends React.Component {
         super(props);
         this.state = {
             id: this.props.id,
-            i18nKey: this.props.i18nKey,
             name: this.props.name,
             to: this.props.to,
         };
@@ -25,9 +23,7 @@ class MenuButton extends React.Component {
                     duration={ 500 }
                     offset={ -70 }
                 >
-                    <Trans i18nKey={ this.state.i18nKey }>
                         { this.state.name }
-                    </Trans>
                 </Link>
             </li>
 			)

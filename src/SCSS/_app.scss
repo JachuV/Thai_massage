@@ -1,0 +1,139 @@
+@import "variables";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 58px 0;
+    scroll-behavior: smooth;
+}
+
+
+
+section {
+    /*min-height: 100vh;*/
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 0;
+    background-color: $sectionBgColor;
+    font-family: 'Montserrat', sans-serif;
+
+    .container {
+        max-width: 1170px;
+        padding: 75.55px 15px;
+        margin: 0 auto;
+        background-color: $container-bg-color;
+        text-align: justify;
+
+
+        ul {
+            list-style-type: circle;
+            list-style-position: inside;
+            border-left: 6px solid #121212;
+            /*background-color: #fffac6;
+            color: #121212;
+            padding: 11px 21px;
+            box-shadow: 0 3px 5px rgb(0 0 0 / 50%);*/
+        }
+    }
+}
+
+.home {
+
+    .main-title-wrapper {
+        background-image: url('/assets/img/Thaikowska-bench.JPG');
+        background-size: 100%;
+        background-position: center top;
+        margin: -7% 0 0 0;
+        padding: 3vw;
+        position: relative;
+
+        h1 {
+            font-family: $main-header-font;
+            font-size: $font-size-xxxl;
+            text-align: center;
+            color: $big-header-color;
+            margin: 1.6em 0 1.5em 0;
+        }
+
+        h2 {
+            color: $big-header-color;
+            text-align: center;
+            margin: 0 0 7rem 0;
+        }
+    }
+
+    .container {
+        padding: 10px 15px 20px 15px;
+        columns: 250px 3;
+        column-gap: 1vw;
+
+        .image-in-text {
+            width: 20px;
+            height:contain;
+            background-image: url('/assets/img/alan-caishan-thai-massage-unsplash.jpg');
+        }
+    }
+}
+
+.desc {
+    background-image: none /*url("/assets/img/palm-trees-3619180_1920.jpg")*/;
+}
+
+.price {
+    background-image: none /*url("/assets/img/beach-2836300.jpg")*/;
+}
+
+.about {
+    background-image: none /*url("/assets/img/woman-1867908_1920.jpg"*/;
+}
+
+.contact {
+    background-image: none /*url("/assets/img/sunset-1651426_1920.jpg"*/;
+
+    .contact-data {
+        display: flex;
+        margin: 0;
+
+        .contact-data-container {
+            font-family: $contact-font;
+            flex-grow: 1;
+            margin: 1vw;
+            background-color: #fffac6;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+            padding: 0.25em 0.75em;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $section-header-font;
+    font-weight: 400;
+    margin-top: 0;
+    letter-spacing: 0.04em;
+}
+
+h2{
+    font-size: $font-size-xl;
+}
+
+.first-letter {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #000000;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+}

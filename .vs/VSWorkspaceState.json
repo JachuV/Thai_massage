@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\Navbar",
+    "\\src\\SCSS"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\SCSS\\_responsive.scss",
   "PreviewInSolutionExplorer": false
 }

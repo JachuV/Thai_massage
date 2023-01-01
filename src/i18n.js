@@ -47,7 +47,7 @@ i18n
                     }
                 }
             },
-            en: {
+            /*en: {
                 translation: {
                     menu:{
                         home: 'Home',
@@ -118,7 +118,7 @@ i18n
                         },
                     }
                 }
-            },
+            },*/
         }
     });
 
