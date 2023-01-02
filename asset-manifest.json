@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/Thai_massage/static/css/main.b76cc0de.chunk.css",
-    "main.js": "/Thai_massage/static/js/main.b687072d.chunk.js",
-    "main.js.map": "/Thai_massage/static/js/main.b687072d.chunk.js.map",
+    "main.css": "/Thai_massage/static/css/main.9f0c293b.chunk.css",
+    "main.js": "/Thai_massage/static/js/main.01bde4c0.chunk.js",
+    "main.js.map": "/Thai_massage/static/js/main.01bde4c0.chunk.js.map",
     "runtime-main.js": "/Thai_massage/static/js/runtime-main.bc884bb8.js",
     "runtime-main.js.map": "/Thai_massage/static/js/runtime-main.bc884bb8.js.map",
     "static/js/2.16f12950.chunk.js": "/Thai_massage/static/js/2.16f12950.chunk.js",
     "static/js/2.16f12950.chunk.js.map": "/Thai_massage/static/js/2.16f12950.chunk.js.map",
     "index.html": "/Thai_massage/index.html",
-    "static/css/main.b76cc0de.chunk.css.map": "/Thai_massage/static/css/main.b76cc0de.chunk.css.map",
+    "static/css/main.9f0c293b.chunk.css.map": "/Thai_massage/static/css/main.9f0c293b.chunk.css.map",
     "static/js/2.16f12950.chunk.js.LICENSE.txt": "/Thai_massage/static/js/2.16f12950.chunk.js.LICENSE.txt",
+    "static/media/THAIMASSAGETRADITIONAL.541887a8.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL.541887a8.jpg",
+    "static/media/THAIMASSAGETRADITIONAL2.47c764ef.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL2.47c764ef.jpg",
+    "static/media/THAIMASSAGETRADITIONAL3.dd4eab0a.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL3.dd4eab0a.jpg",
     "static/media/index.scss": "/Thai_massage/static/media/Thaikowska-bench.880a1b90.JPG",
     "static/media/alanCaishanThaiMassageUnsplash.58d46024.jpg": "/Thai_massage/static/media/alanCaishanThaiMassageUnsplash.58d46024.jpg",
-    "static/media/lanternManoharanCarbUnsplash.65370a58.jpg": "/Thai_massage/static/media/lanternManoharanCarbUnsplash.65370a58.jpg"
+    "static/media/lanternManoharanCarbUnsplash.65370a58.jpg": "/Thai_massage/static/media/lanternManoharanCarbUnsplash.65370a58.jpg",
+    "static/media/masage.c6135123.jpg": "/Thai_massage/static/media/masage.c6135123.jpg",
+    "static/media/masage2.6425e1ba.jpg": "/Thai_massage/static/media/masage2.6425e1ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bc884bb8.js",
     "static/js/2.16f12950.chunk.js",
-    "static/css/main.b76cc0de.chunk.css",
-    "static/js/main.b687072d.chunk.js"
+    "static/css/main.9f0c293b.chunk.css",
+    "static/js/main.01bde4c0.chunk.js"
   ]
 }
