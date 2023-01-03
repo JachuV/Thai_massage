@@ -1,6 +1,16 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar.js"
 import Hamburger from "hamburger-react";
+import alanCaishanThaiMassageUnsplash from "./assets/img/alanCaishanThaiMassageUnsplash.jpg"
+import lanternManoharanCarbUnsplash from "./assets/img/lanternManoharanCarbUnsplash.jpg"
+import masage from "./assets/img/masage.jpg"
+import masage2 from "./assets/img/masage2.jpg"
+import THAIMASSAGETRADITIONAL from "./assets/img/THAIMASSAGETRADITIONAL.jpg"
+import THAIMASSAGETRADITIONAL2 from "./assets/img/THAIMASSAGETRADITIONAL2.jpg"
+import THAIMASSAGETRADITIONAL3 from "./assets/img/THAIMASSAGETRADITIONAL3.jpg"
+import InText from "./assets/img/InText.jpg"
+
+
 
 
 class App extends React.Component {
@@ -51,7 +61,6 @@ class App extends React.Component {
                             ciała i umysłu, lekkość jak i wpływa pozytywnie na emocje i nastrój. W rezultacie
                             z masażem tajskim wiąże się wiele korzyści zdrowotnych.
                         </p>
-                        <div className={ 'image-in-text' }></div>
                         <p>
                             W tradycyjnym masażu tajskim masażysta wykonuje liczne ruchy ugniatające na ciele
                             masowanego w celu rozluźnienia tkanki, przygotowując ciało do głębszych warstw masażu.
@@ -59,6 +68,7 @@ class App extends React.Component {
                             na ciele za pomocą dłoni i/lub łokcia aby manipulować tkankami miękkimi i tkanką
                             łączną w celu osiągnięcia efektów terapeutycznych.
                         </p>
+                        <img src={ InText } alt={ 'Massage back with oil' } />
                         <p>
                             Techniki masażu stosowane w masażu tajskim są podobne do technik stosowanych w
                             innych formach fizjoterapii manualnej. Główną formą ruchów masażysty jest rozciąganie
@@ -136,6 +146,11 @@ class App extends React.Component {
                                 przywraca równowagę i spokój
                             </li>
                         </ul>
+                        <div className={ 'photos-row' }>
+                            <img src={ THAIMASSAGETRADITIONAL2 } alt={ 'Massage back with oil' } />
+                            <img src={ THAIMASSAGETRADITIONAL3 } alt={ 'Massage back with oil' } />
+                            <img src={ THAIMASSAGETRADITIONAL } alt={ 'Massage back with oil' } />
+                        </div>
                     </div>
                 </section>
 
@@ -144,14 +159,17 @@ class App extends React.Component {
                         <h2>
                                 DLA KOGO JEST WSKAZANY MASAŻ TAJSKI?
                         </h2>
-                        <ul className={ 'indications-list' }>
-                            <li>polecany jest osobom będącym w długotrwałym stresie</li>
-                            <li>chronicznie zmęczonym, narzekającym na brak energii</li>
-                            <li>pracującym długie godziny w niekorzystnych dla ciała pozycjach np. siedząc, stojąc lub schylając się</li>
-                            <li>osoby skarżące się na bóle głowy i migreny, problemy ze snem, będące następstwem napięć w mięśniach karku, pleców, ramion</li>
-                            <li>osoby z obniżoną odpornością</li>
-                            <li>napięcia mięśniowe pomiędzy treningami sportowców</li>
-                        </ul>
+                        <div className={ 'indications-wrapper' }>
+                            <ul className={ 'indications-list' }>
+                                <li>polecany jest osobom będącym w długotrwałym stresie</li>
+                                <li>chronicznie zmęczonym, narzekającym na brak energii</li>
+                                <li>pracującym długie godziny w niekorzystnych dla ciała pozycjach np. siedząc, stojąc lub schylając się</li>
+                                <li>osoby skarżące się na bóle głowy i migreny, problemy ze snem, będące następstwem napięć w mięśniach karku, pleców, ramion</li>
+                                <li>osoby z obniżoną odpornością</li>
+                                <li>napięcia mięśniowe pomiędzy treningami sportowców</li>
+                            </ul>
+                            <img src={ lanternManoharanCarbUnsplash } alt={ 'Flying hot air lampions' } />
+                        </div>
                     </div>
                 </section>
 
@@ -229,6 +247,11 @@ class App extends React.Component {
                                 weź relaksującą kąpiel 
                             </li>
                         </ul>
+                        <div className={ 'photos-row' }>
+                            <img src={ masage } alt={ 'Thai massage' } />
+                            <img src={ THAIMASSAGETRADITIONAL } alt={ 'Traditional thai massage' } />
+                            <img src={ masage2 } alt={ 'Massage back' } />
+                        </div>
                     </div>
                 </section>
 
@@ -240,20 +263,13 @@ class App extends React.Component {
                         <div className={ 'contact-data' }>
                             <div className={ 'contact-data-container' }>
                                 <p>
-                                        Telefon: 00423156533
+                                        Telefon: 0031 610756861
                                 </p>
                             </div>
                             <div className={ 'contact-data-container' }>
                                 <p>
-                                        E-mail: mail@mail.com
+                                        E-mail: magdalenajadwiga25@gmail.com
                                 </p>
-                            </div>
-                            <div className={ 'contact-data-container' }>
-                                <p>
-                                        Adres:
-                                </p>
-                                <p>Błotna street nr zachlapany</p>
-                                <p>0123 City Town</p>
                             </div>
                         </div>
                     </div>

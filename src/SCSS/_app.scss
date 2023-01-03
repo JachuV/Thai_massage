@@ -9,6 +9,10 @@ body {
     padding: 0 0 58px 0;
     scroll-behavior: smooth;
 }
+img {
+    max-width: 100%;
+    height:max-content;
+}
 
 
 
@@ -28,15 +32,25 @@ section {
         background-color: $container-bg-color;
         text-align: justify;
 
+        
+
+        .photos-row {
+            display: flex;
+
+            img {
+                max-width: 33.33%;
+                margin: 0 1vw
+            }
+            img:first-child, img:last-child {
+                margin:0;
+            }
+        }
+
 
         ul {
             list-style-type: circle;
             list-style-position: inside;
             border-left: 6px solid #121212;
-            /*background-color: #fffac6;
-            color: #121212;
-            padding: 11px 21px;
-            box-shadow: 0 3px 5px rgb(0 0 0 / 50%);*/
         }
     }
 }
@@ -71,24 +85,23 @@ section {
         columns: 250px 3;
         column-gap: 1vw;
 
-        .image-in-text {
-            width: 20px;
-            height:contain;
-            background-image: url('/assets/img/alan-caishan-thai-massage-unsplash.jpg');
-        }
+        
+        
+        
     }
 }
 
-.desc {
-    background-image: none /*url("/assets/img/palm-trees-3619180_1920.jpg")*/;
-}
-
-.price {
-    background-image: none /*url("/assets/img/beach-2836300.jpg")*/;
-}
-
-.about {
-    background-image: none /*url("/assets/img/woman-1867908_1920.jpg"*/;
+.indications {
+    .indications-wrapper {
+        display:flex;
+        flex-direction:row;
+        ul{
+            margin: 0 20px 0 0;
+        }
+        img{
+            max-width:30%;
+        }
+    }
 }
 
 .contact {
