@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Thai_massage/static/css/main.7c438d5a.chunk.css",
+    "main.css": "/Thai_massage/static/css/main.e9484ddd.chunk.css",
     "main.js": "/Thai_massage/static/js/main.d0387c4e.chunk.js",
     "main.js.map": "/Thai_massage/static/js/main.d0387c4e.chunk.js.map",
     "runtime-main.js": "/Thai_massage/static/js/runtime-main.bc884bb8.js",
@@ -8,7 +8,7 @@
     "static/js/2.5ef67274.chunk.js": "/Thai_massage/static/js/2.5ef67274.chunk.js",
     "static/js/2.5ef67274.chunk.js.map": "/Thai_massage/static/js/2.5ef67274.chunk.js.map",
     "index.html": "/Thai_massage/index.html",
-    "static/css/main.7c438d5a.chunk.css.map": "/Thai_massage/static/css/main.7c438d5a.chunk.css.map",
+    "static/css/main.e9484ddd.chunk.css.map": "/Thai_massage/static/css/main.e9484ddd.chunk.css.map",
     "static/js/2.5ef67274.chunk.js.LICENSE.txt": "/Thai_massage/static/js/2.5ef67274.chunk.js.LICENSE.txt",
     "static/media/InText.f911f4cd.jpg": "/Thai_massage/static/media/InText.f911f4cd.jpg",
     "static/media/THAIMASSAGETRADITIONAL.541887a8.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL.541887a8.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc884bb8.js",
     "static/js/2.5ef67274.chunk.js",
-    "static/css/main.7c438d5a.chunk.css",
+    "static/css/main.e9484ddd.chunk.css",
     "static/js/main.d0387c4e.chunk.js"
   ]
 }
