@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar/Navbar.js"
-import Hamburger from "hamburger-react";
-import alanCaishanThaiMassageUnsplash from "./assets/img/alanCaishanThaiMassageUnsplash.jpg"
+import Sidebar from "./Navbar/Sidebar"
 import lanternManoharanCarbUnsplash from "./assets/img/lanternManoharanCarbUnsplash.jpg"
 import masage from "./assets/img/masage.jpg"
 import masage2 from "./assets/img/masage2.jpg"
@@ -17,26 +15,13 @@ class App extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            hamburgerIsOpen: this.props.updateHamburger,
         }
     }
     
     render() {
         return(
             <div className={ 'App' }>
-
-                <Hamburger onToggle={ toggled => {
-                    if (toggled) {
-                        // open a menu
-                        this.setState({ hamburgerIsOpen: true });                     
-                    } else {
-                        // close a menu
-                        this.setState({ hamburgerIsOpen: false });                        
-                    }
-                } } />
-
-                <Navbar hamburgerIsOpen={ this.state.hamburgerIsOpen } />
-                
+                <Sidebar bodyClassName={ 'sidebar-body' } />
                 <section className={ 'home' } id={ 'scroll-home' }>
                     <div className={ 'main-title-wrapper' }>
                         <h1 className={ 'main-title' }>

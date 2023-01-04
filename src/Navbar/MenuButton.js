@@ -13,7 +13,7 @@ class MenuButton extends React.Component {
 	}
 	render() {
         return (
-            <li id={ this.state.id }>
+            <div className={ 'menu-item' } id={ this.state.id } href={ this.state.to }>
                 <Link
                     className={ 'scroll' }
                     activeClass='active'
@@ -25,7 +25,7 @@ class MenuButton extends React.Component {
                 >
                         { this.state.name }
                 </Link>
-            </li>
+            </div>
 			)
 	}
 }

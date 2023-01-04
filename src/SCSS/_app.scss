@@ -61,7 +61,7 @@ section {
         background-image: url('/assets/img/Thaikowska-bench.JPG');
         background-size: 100%;
         background-position: center top;
-        margin: -7% 0 0 0;
+        margin: 0;
         padding: 3vw;
         position: relative;
 
@@ -70,13 +70,13 @@ section {
             font-size: $font-size-xxxl;
             text-align: center;
             color: $big-header-color;
-            margin: 1.6em 0 1.5em 0;
+            margin: 5vw 0 16vw 0;
         }
 
         h2 {
             color: $big-header-color;
             text-align: center;
-            margin: 0 0 7rem 0;
+            margin: 0 0 9vw 0;
         }
     }
 
@@ -84,10 +84,6 @@ section {
         padding: 10px 15px 20px 15px;
         columns: 250px 3;
         column-gap: 1vw;
-
-        
-        
-        
     }
 }
 

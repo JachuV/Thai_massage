@@ -1,35 +1,11 @@
 @media only screen and (max-width: 1220px) {
-    .hamburger-react {
-        display: block;
-    }
-    .App-header.active {
-        flex-direction: column;
-        .menu {
-            flex-direction: column;
-
-            li {
-                margin: 0;
-            }
-        }
-        .languages {
-            margin: 0 20px;
-            align-items:flex-start;
-            flex-direction:row;
-            justify-content:space-evenly;
-        }
-    }
-
-    .App-header.unactive {
-        visibility: hidden;
-    }
-
     .section {
         .container {
-            padding: 0 0 20px 0;
+            padding: 10px 0;
         } 
     }
 
-    .home {
+    /*.home {
         .main-title-wrapper {
             margin: -15% 0 0 0;
 
@@ -41,7 +17,7 @@
                 margin: 0 0 1rem 0;
             }
         }
-    }
+    }*/
 
     .indications {
         .indications-wrapper {
