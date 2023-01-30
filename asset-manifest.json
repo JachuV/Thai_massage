@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/Thai_massage/static/css/main.e9484ddd.chunk.css",
-    "main.js": "/Thai_massage/static/js/main.d0387c4e.chunk.js",
-    "main.js.map": "/Thai_massage/static/js/main.d0387c4e.chunk.js.map",
-    "runtime-main.js": "/Thai_massage/static/js/runtime-main.bc884bb8.js",
-    "runtime-main.js.map": "/Thai_massage/static/js/runtime-main.bc884bb8.js.map",
-    "static/js/2.5ef67274.chunk.js": "/Thai_massage/static/js/2.5ef67274.chunk.js",
-    "static/js/2.5ef67274.chunk.js.map": "/Thai_massage/static/js/2.5ef67274.chunk.js.map",
-    "index.html": "/Thai_massage/index.html",
-    "static/css/main.e9484ddd.chunk.css.map": "/Thai_massage/static/css/main.e9484ddd.chunk.css.map",
-    "static/js/2.5ef67274.chunk.js.LICENSE.txt": "/Thai_massage/static/js/2.5ef67274.chunk.js.LICENSE.txt",
-    "static/media/InText.f911f4cd.jpg": "/Thai_massage/static/media/InText.f911f4cd.jpg",
-    "static/media/THAIMASSAGETRADITIONAL.541887a8.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL.541887a8.jpg",
-    "static/media/THAIMASSAGETRADITIONAL2.47c764ef.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL2.47c764ef.jpg",
-    "static/media/THAIMASSAGETRADITIONAL3.dd4eab0a.jpg": "/Thai_massage/static/media/THAIMASSAGETRADITIONAL3.dd4eab0a.jpg",
-    "static/media/index.scss": "/Thai_massage/static/media/Thaikowska-bench.880a1b90.JPG",
-    "static/media/lanternManoharanCarbUnsplash.65370a58.jpg": "/Thai_massage/static/media/lanternManoharanCarbUnsplash.65370a58.jpg",
-    "static/media/masage.c6135123.jpg": "/Thai_massage/static/media/masage.c6135123.jpg",
-    "static/media/masage2.6425e1ba.jpg": "/Thai_massage/static/media/masage2.6425e1ba.jpg"
+    "main.css": "/static/css/main.1b2d9ba3.css",
+    "main.js": "/static/js/main.a399cf85.js",
+    "static/media/Thaikowska-bench.JPG": "/static/media/Thaikowska-bench.880a1b90d121592de844.JPG",
+    "static/media/lanternManoharanCarbUnsplash.jpg": "/static/media/lanternManoharanCarbUnsplash.65370a582167669055fd.jpg",
+    "static/media/InText.jpg": "/static/media/InText.f911f4cd38886de2ea32.jpg",
+    "static/media/masage2.jpg": "/static/media/masage2.6425e1badcfed0f7c243.jpg",
+    "static/media/masage.jpg": "/static/media/masage.c6135123b041364d90c9.jpg",
+    "static/media/THAIMASSAGETRADITIONAL2.jpg": "/static/media/THAIMASSAGETRADITIONAL2.47c764ef4a5084147a2c.jpg",
+    "static/media/THAIMASSAGETRADITIONAL3.jpg": "/static/media/THAIMASSAGETRADITIONAL3.dd4eab0a5271f6713578.jpg",
+    "static/media/THAIMASSAGETRADITIONAL.jpg": "/static/media/THAIMASSAGETRADITIONAL.541887a8c5fdc8851b4c.jpg",
+    "index.html": "/index.html",
+    "main.1b2d9ba3.css.map": "/static/css/main.1b2d9ba3.css.map",
+    "main.a399cf85.js.map": "/static/js/main.a399cf85.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc884bb8.js",
-    "static/js/2.5ef67274.chunk.js",
-    "static/css/main.e9484ddd.chunk.css",
-    "static/js/main.d0387c4e.chunk.js"
+    "static/css/main.1b2d9ba3.css",
+    "static/js/main.a399cf85.js"
   ]
 }
